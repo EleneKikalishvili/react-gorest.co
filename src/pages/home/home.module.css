@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.search {
+  display: flex;
+  width: 15%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.btn {
+  border: 1px solid black;
+  background: none;
+  color: black;
+  font-size: 15px;
+  height: 40px;
+}
+
+.usersContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
